@@ -2,6 +2,7 @@ package com.qacart.todo.factory;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -15,7 +16,9 @@ public class DriverFactory {
         WebDriver webDriver;
         switch (browser){
             case "CHROME"->{
-                 webDriver = new ChromeDriver();
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--headless");
+                 webDriver = new ChromeDriver(chromeOptions);
             }
             case "FIREFOX" ->{
                  webDriver = new FirefoxDriver();
