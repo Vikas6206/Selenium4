@@ -34,4 +34,6 @@ public class DriverFactory {
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         return webDriver;
     }
+
+    //the end - last commit for generating and hosting the result on github actions
 }
