@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 12 19:15:23 GMT 2023","Tue Sep 12 19:15:31 GMT 2023","8534","Surefire suite","Surefire test","com.qacart.todo.testcases.TodoTest","com.qacart.todo.testcases.TodoTest","shouldBeAbleToAddATodo","shouldBeAbleToAddATodo",""
+"passed","Tue Sep 12 19:15:23 GMT 2023","Tue Sep 12 19:15:31 GMT 2023","8639","Surefire suite","Surefire test","com.qacart.todo.testcases.TodoTest","com.qacart.todo.testcases.TodoTest","shouldBeAbleToDeleteTest","shouldBeAbleToDeleteTest",""
+"passed","Tue Sep 12 19:15:23 GMT 2023","Tue Sep 12 19:15:30 GMT 2023","7809","Surefire suite","Surefire test","com.qacart.todo.testcases.UserTest","com.qacart.todo.testcases.UserTest","shouldBEaAbleToRegisterTheApplication","shouldBEaAbleToRegisterTheApplication",""
